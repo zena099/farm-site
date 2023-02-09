@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항 페이지</title>
+    <link rel="stylesheet" href="css/notice/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="script/notice/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <h1 class="logo"><a href="#">건국목장</a></h1>
+                <nav class="nav-pc">
+                    <ul>
+                        <li class="nav-li">
+                            <a href="">목장안내</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">목장소개</a></li>
+                                    <li><a href="#">설립이념</a></li>
+                                    <li><a href="#">히스토리</a></li>
+                                    <li><a href="#">포토갤러리</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <a href="">이용안내</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">이용시간 및 요금</a></li>
+                                    <li><a href="#">오시는길</a></li>
+                                    <li><a href="#">시설안내</a></li>
+                                    <li><a href="#">유의사항</a></li>
+                                    <li><a href="#">방문예약</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <a href="">즐길거리</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">체험안내</a></li>
+                                    <li><a href="#">목책로안내</a></li>
+                                    <li><a href="#">추천코스</a></li>
+                                    <li><a href="#">숲놀이터</a></li>
+                                    <li><a href="#">푸드랜드</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <a href="">제품안내</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">유기농 우유</a></li>
+                                    <li><a href="#">오메가밸런스 우유</a></li>
+                                    <li><a href="#">유기농 그릭요구르트</a></li>
+                                    <li><a href="#">유기농 요구르트</a></li>
+                                    <li><a href="#">유기농 밀크티</a></li>
+                                    <li><a href="#">유기농 자연치즈</a></li>
+                                    <li><a href="#">유기농 아이스크림</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-li">
+                            <a href="">커뮤니티</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">이용후기</a></li>
+                                    <li><a href="#">고객의견</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="gnb">
+                    <ul>
+                        <li class="g-l"><a href="#">로그인</a></li>
+                        <li class="g-l"><a href="#">회원가입</a></li>
+                        <li class="g-w">
+                            <a href="#">KR</a>
+                            <ul class="depth">
+                                <li><a href="#">KR</a></li>
+                                <li><a href="#">EN</a></li>
+                                <li><a href="#">CH</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <span class="toggle"><i class="fa-sharp fa-solid fa-bars"></i></span>	
+                </nav>
+            </div>
+            <div class="gnb_bg"></div>    
+        </div>
+    </header><!-- //header -->
+
+    <main id="notice">
+        <div class="notice-contents">
+            <div class="page-top">
+                <div class="page-location">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">커뮤니티</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </div>
+                <div class="page-title">
+                    <div class="notice-bg">
+                        <div class="notice-bg-box"></div>
+                    </div>
+                    <div class="notice-title">
+                        <h2 class="tit-skroll">Customer</h2>
+                        <h2 class="tit-skroll">Support</h2>
+                    </div>
+                </div>
+            </div><!-- //page-top" -->
+
+            <div class="page-contents">
+                <div class="title-area" id="tab-guid">
+                    <div class="main-title">
+                        <div>
+                            <h3 class="en">Notice</h3>
+                            <h3 class="kr">공지사항</h3>
+                        </div>
+                    </div>
+                    <div class="sub-tabs">
+                        <ul>
+                            <li class="active"><a href="">공지사항</a></li>
+                            <li><a href="">자유게시판</a></li>
+                            <li><a href="">이용후기</a></li>
+                            <li><a href="">고객의견</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div><!-- //title-area -->
+                <div class="tab-contents-wrap">
+                    <div class="inner-cont01">
+                        <div class="innerwrap">
+                            <div class="notice-info">
+                                <h4>건국목장의 새로운 소식을 확인할 수 있습니다.</h4>
+                                <p>건국목장의 다양한 소식을 담았습니다.<br>
+                                    자세한 소식을 알고 싶다면 건국목장 대표번호로 문의하세요</p>
+                            </div>
+                        </div>
+                    </div><!-- //inner-cont01 -->
+                    <div class="inner-cont02">
+                        <div class="innerwrap">
+                            <table class="n-list">
+                                <caption>게시판 목록</caption>
+                                <colgroup>
+                                    <col style="width:10%">
+                                    <col style="width:60%">
+                                    <col style="width:15%">
+                                    <col style="width:15%">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>번호</th>
+                                        <th>제목</th>
+                                        <th>작성일</th>
+                                        <th>조회수</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            동절기 운영 시간 안내
+                                        </td>
+                                        <td class="date">
+                                            2022-10-17
+                                        </td>
+                                        <td class="view">
+                                            247
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            2022년 추석연휴 영업안내                                    
+                                        </td>
+                                        <td class="date">
+                                            2022-09-10
+                                        </td>
+                                        <td class="view">
+                                            212
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            건국목장 면양 분양                                    
+                                        </td>
+                                        <td class="date">
+                                            2022-02-08
+                                        </td>
+                                        <td class="view">
+                                            1104
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            병역강화 조치 준수 행정명령 공고 안내                                    
+                                        </td>
+                                        <td class="date">
+                                            2021-12-20
+                                        </td>
+                                        <td class="view">
+                                            113
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            건국목장 동절기 운영안내                                    
+                                        </td>
+                                        <td class="date">
+                                            2021-11-13
+                                        </td>
+                                        <td class="view">
+                                            831
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            추석당일 영업시간 안내                                    
+                                        </td>
+                                        <td class="date">
+                                            2021-09-19
+                                        </td>
+                                        <td class="view">
+                                            212
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            건국목장 유기농 요거트 리뷰 이벤트 안내                                    
+                                        </td>
+                                        <td class="date">
+                                            2021-08-07
+                                        </td>
+                                        <td class="view">
+                                            245
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            [알림] 건국목장 반려견 ZONE OPEN!                                    
+                                        </td>
+                                        <td class="date">
+                                            2021-06-13
+                                        </td>
+                                        <td class="view">
+                                            1432
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            <i class="fa-sharp fa-solid fa-bell"></i>
+                                        </td>
+                                        <td class="n-tit">
+                                            [알림] 건국목장 하절기 영업시간 안내                                    
+                                        </td>
+                                        <td class="date">
+                                            2021-03-05
+                                        </td>
+                                        <td class="view">
+                                            114
+                                        </td>
+                                    </tr>
+                                    <tr class="notice-con">
+                                        <td class="num">
+                                            4
+                                        </td>
+                                        <td class="n-tit">
+                                            건국목장 홈페이지 리뉴얼 이벤트 당첨자 발표                                  
+                                        </td>
+                                        <td class="date">
+                                            2022-10-05
+                                        </td>
+                                        <td class="view">
+                                            134
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="page-box">
+                                <ul class="page">
+                                    <li><a href="" class="current">1</a></li>
+                                    <li><a href="">2</a></li>
+                                </ul>
+                            </div>
+                            <div class="search-bar">
+                                <form name="search" class="search" method="get">
+                                    <span class="select-list">
+                                        <select name="s-class" id="s-class" class="se-class" title="검색분류 선택">
+                                            <option value="all">전체</option>
+                                            <option value="title">제목</option>
+                                            <option value="contents">내용</option>
+                                        </select>
+                                    </span>
+                                    <span class="search-word">
+                                        <input type="text" id="s-w" name="s-w" title="검색어 입력">
+                                        <input type="button" id="s-b" name="s-b" value="검색" title="검색">
+                                    </span>
+                                </form>
+                            </div>
+                        </div>
+                    </div><!-- //inner-cont02 -->
+                </div><!-- //tab-contents-wrap -->
+            </div><!-- //page-contents -->
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="f_logo">
+                <img src="images/notice/f-logo.png" alt="건국목장 로고">
+            </div>
+            <div class="footer_contents">
+                <ul class="tnb">
+                    <li><a href="#">건국목장소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">찾아오시는 길</a></li>
+                    <li><a href="#">고객의 소리</a></li>
+                </ul>
+                <address>
+                    <span>강원도 평창군 대관령면 건국목장 꽃밭양지길 808-9</span>
+                    <span>사업자 등록번호 : 102-00-12345</span>
+                    <span>개인정보관리책임자 : 오나연</span><br>
+                    <span>건국목장 대표전화 : 033-000-0044~5</span>
+                    <span>팩스 : 033-000-0046</span><br>
+                </address>
+                <div class="copy">© 2022 Konkuk farm All Rights Reserved.</div>
+            </div>
+            <div class="footer_sel">
+                <select onchange="if(this.value) location.href=(this.value);">
+                    <option value="#">패밀리 사이트</option>
+                    <option value="https://www.kumilk.com/">건국우유몰</option>
+                    <option value="https://www.konkuk.ac.kr/do/Index.do">건국대학교</option>
+                    <option value="https://www.kku.ac.kr/mbshome/mbs/wwwkr/index.do">건국대학교 GLOCAL 캠퍼스</option>
+                    <option value="https://www.kuh.ac.kr/main.do">건국대학교병원</option>
+                    <option value="https://www.kuh.co.kr/index.do">건국대충주병원</option>
+                    <option value="https://www.theclassic500.com/">THE CLASSIC 500</option>
+                    <option value="https://kugolf.co.kr/index.asp">스마트 KU 골프 파빌리온</option>
+                    <option value="https://www.starctmall.com/">스타시티(건국AMC)</option>
+                </select>
+            </div>
+        </div>
+    </footer><!-- //footer -->
+</body>
+</html>
